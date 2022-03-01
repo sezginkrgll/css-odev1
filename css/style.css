@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(219, 219, 219);
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 750px;
+    border: 3px solid #04AA6D;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    
+}
+main p{
+    text-align: left;
+}
+/******************* Navbar *******************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #111;
+    opacity: 0.5;
+}
+nav .active {
+    background-color: #04AA6D;
+}
+nav ul.topnav li.right {
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    nav ul.topnav li.right, 
+    nav ul.topnav li {float: none;}
+}
+/******************* Navbar end *******************/
+h1 {
+    text-transform: uppercase;
+    color: #04AA6D;
+    font-size: 40px;
+}
+h3 {
+    text-align: left;
+    color: #04AA6D;
+}
+/* layaout */
+
+section {
+    margin: auto;
+    width: 600px;
+}
+
+article{
+    float:left;
+    width:284px;
+    height: 284px;
+    border:#04AA6D solid 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
